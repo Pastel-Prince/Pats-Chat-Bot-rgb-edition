@@ -229,6 +229,8 @@ function bot() {
             }, Math.floor(Math.random() * (4000 - 1500 + 1) + 1500))
         } else if (input == "more rgb"){
           window.location.replace("https://pastel-prince.github.io/Pats-Chat-Bot-rgb-extreme-edition/");
+        } else if (input == "less rgb"){
+          window.location.replace("https://pastel-prince.github.io/Pats-Chat-Bot/");
         }
 
         else if (input == "what are you?" || input == "who are you?") {

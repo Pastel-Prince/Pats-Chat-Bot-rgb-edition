@@ -68,6 +68,7 @@ function Stream() {
     var light = 0;
     this.render = function() {
         $('button').css("background-color", "hsl("+light+",100%,50%)");
+        $('#face').css("color", "hsl("+light+",100%,30%)");
         light += 1;
         if (light >= 360){
           light = 0;
